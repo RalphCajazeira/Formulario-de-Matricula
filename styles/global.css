@@ -6,11 +6,11 @@
 
 :root {
   --font-family: "Poppins", serif;
-  --text: bold 1rem/120% var(--font-family);
+  --text: 400 1rem/120% var(--font-family);
   --text-sm: 800 0.875rem/1.4 var(--font-family);
   --text-lg: bold 1.25rem/1.5 var(--font-family);
   --text-xl: bold 1.5rem/1.5 var(--font-family);
-  --text-2xl: bold 2rem/1.5 var(--font-family);
+  --text-2xl: 600 2.5rem/1.25 var(--font-family);
 
   --text-primary: #292524;
   --text-secondary: #57534e;
@@ -29,4 +29,17 @@
 
 body {
   font: var(--text);
+  color: var(--text-primary);
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-8 {
+  gap: 0.5rem;
+}
+
+.gap-32 {
+  gap: 2rem;
 }
