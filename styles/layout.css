@@ -4,14 +4,23 @@
 
   height: 100vh;
   overflow: hidden;
+}
 
-  main {
-    overflow: auto;
-    padding: 4rem;
+main {
+  overflow: auto;
+  padding: 4rem;
 
-    & .main-container {
-      max-width: 33rem;
-      margin-left: auto;
-    }
+  & .main-container {
+    max-width: 33rem;
+    margin-left: auto;
+  }
+}
+
+aside {
+  background-color: var(--surface-secondary);
+  padding: 4rem;
+
+  & .aside-container {
+    max-width: 31rem;
   }
 }

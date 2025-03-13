@@ -28,8 +28,7 @@
 }
 
 body {
-  font: var(--text);
-  color: var(--text-primary);
+  overflow: hidden;
 }
 
 .grid {
