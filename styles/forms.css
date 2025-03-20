@@ -19,3 +19,10 @@ legend {
 fieldset + fieldset {
   margin-top: 3rem;
 }
+
+.action-wrapper {
+  display: flex;
+  gap: 1rem;
+  /* justify-content: end; */
+  margin-top: 4rem;
+}
