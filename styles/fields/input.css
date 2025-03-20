@@ -94,3 +94,7 @@ input {
     display: none;
   }
 }
+
+.radio-inner img + label {
+  font: 400 1rem/1.5 var(--font-family);
+}
